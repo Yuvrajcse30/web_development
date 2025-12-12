@@ -38,3 +38,21 @@ h2{
     font-size: 2em;
     text-shadow: 4px 4px 6px rgb(159, 11, 11),-4px -4px 6px rgb(11, 29, 221);
 }
+.box{
+    border: 2px solid;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+#box1{
+    
+    background-color: yellowgreen;
+    box-shadow: 4px 4px 6px;
+    margin-left: auto ;
+}
+#box2{
+    
+    background-color: rgb(60, 50, 205);
+    box-shadow: 4px 4px 6px;
+}
