@@ -1,12 +1,40 @@
 body{
-    background-color: rgb(211, 243, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    justify-content: center; 
+    padding: 40px;
 }
 h1{
     color: rgb(16, 16, 151);
 }
 table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 5px;
     margin: 10px;
+    padding: 0px;
+    text-align: center;
 }
-.class{
-    margin: 2px;
+thead{
+    background-color: #004080;
+    color: white;
+}
+th,td{
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.152);
+}
+.lab{
+    background-color: rgb(133, 248, 168);
+    font-weight: bold;
+}
+.guest{
+    background-color: rgb(139, 158, 235);
+    font-weight: bold;
+}
+.lunch{
+    background-color: rgb(248, 213, 124);
+    font-weight: bold;
 }
