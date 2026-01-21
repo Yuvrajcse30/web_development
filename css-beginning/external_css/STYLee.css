@@ -35,7 +35,7 @@ h1{
     border-top: 4px solid yellow;
     border-radius: 10px;
 }
-h2{
+#hh{
     font-size: 2em;
     text-shadow: 4px 4px 6px rgb(159, 11, 11),-4px -4px 6px rgb(11, 29, 221);
 }
@@ -82,5 +82,16 @@ span{
     background-color: rgb(69, 77, 187);
     height: 100px;
     width: 100px;
-    display: inline-block;
+    display: block;
+}
+.heightwidth{
+    background-color: azure;
+    border: 2px  solid;
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-width: 40%;
 }
