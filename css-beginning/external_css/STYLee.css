@@ -2,6 +2,7 @@ body{
     background-color: rgb(110, 142, 180);
     border: 3px ,solid;
     display: flow-root; 
+    font-size: 25px;
 }
 h1{
     color: #d01a35;
@@ -94,4 +95,31 @@ span{
     float: left;
     text-align: center;
     min-width: 40%;
+}
+
+#square1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 228, 196);
+    position: sticky;
+    position: fixed;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#square2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(172, 249, 199);
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+body{
+    background-image: url(1315627.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
